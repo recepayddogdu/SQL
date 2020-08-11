@@ -1,0 +1,20 @@
+SELECT * FROM CUSTOMER
+ORDER BY CUSTOMERNAME 
+--Varsayilan olarak a-z siralanir (ascending)
+
+SELECT*FROM CUSTOMER
+ORDER BY CUSTOMERNAME DESC 
+--DESC: descending, z-a, buyukten kucuge siralama
+
+SELECT * FROM CUSTOMER
+ORDER BY CITY, CUSTOMERNAME 
+--Sehir icerisinde isme gore siralama yapar.
+
+SELECT * FROM CUSTOMER
+ORDER BY CITY , CUSTOMERNAME desc
+--Sehirler a-z, isimler z-a siralandi.
+
+SELECT * FROM CUSTOMER
+ORDER BY 3 DESC
+--3. KOLON CITY OLDUGUNDAN CITY'DE ISLEM YAPACAK.
+--2 OLSAYDI CUSTOMERNAME'E GORE SIRALAMA YAPACAKTI.
